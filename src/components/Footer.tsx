@@ -92,15 +92,15 @@ const Footer: React.FC = () => {
                   <span className="text-sm">Kinaxixi, Edifício ESCOM, 4.º andar<br />Luanda, Angola</span>
                 </div>
                 
-                <div className="flex items-center text-gray-300">
+                <a href="tel:+244931281875" className="flex items-center text-gray-300 hover:text-cyan-400 transition-colors">
                   <Phone className="w-5 h-5 mr-3 text-cyan-400 flex-shrink-0" />
                   <span className="text-sm">+244 931 281 875 / +244 931 281 619</span>
-                </div>
+                </a>
                 
-                <div className="flex items-center text-gray-300">
+                <a href="mailto:geral@intelidadosconsulting.com" className="flex items-center text-gray-300 hover:text-cyan-400 transition-colors">
                   <Mail className="w-5 h-5 mr-3 text-cyan-400 flex-shrink-0" />
                   <span className="text-sm">geral@intelidadosconsulting.com</span>
-                </div>
+                </a>
               </div>
 
               {/* Social Links */}

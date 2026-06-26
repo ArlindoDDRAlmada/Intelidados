@@ -1,34 +1,59 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import {
-  Mail,
-  Phone,
-  MapPin,
-  Clock
-} from 'lucide-react';
+import { Mail, Phone, MapPin, Clock } from 'lucide-react';
+import { FaWhatsapp } from 'react-icons/fa';
+
+interface ContactDetail {
+  text: string;
+  href?: string;
+}
+
+interface ContactCard {
+  icon: React.ComponentType<{ className?: string }>;
+  title: string;
+  details: ContactDetail[];
+}
 
 const ContactSection: React.FC = () => {
-  const contactInfo = [
+  const contactInfo: ContactCard[] = [
     {
       icon: Phone,
       title: "Telefones",
-      details: ["+244 931 281 875", "+244 931 281 619"]
+      details: [
+        { text: "+244 931 281 875", href: "tel:+244931281875" },
+        { text: "+244 931 281 619", href: "tel:+244931281619" },
+      ],
+    },
+    {
+      icon: FaWhatsapp,
+      title: "WhatsApp",
+      details: [
+        { text: "+244 931 281 875", href: "https://wa.me/244931281875" },
+      ],
     },
     {
       icon: Mail,
       title: "Email",
-      details: ["geral@intelidadosconsulting.com"]
-    },
-    {
-      icon: MapPin,
-      title: "Endereço",
-      details: ["Kinaxixi, Edifício ESCOM, 4.º andar", "Luanda, Angola"]
+      details: [
+        { text: "geral@intelidadosconsulting.com", href: "mailto:geral@intelidadosconsulting.com" },
+      ],
     },
     {
       icon: Clock,
       title: "Horário de Funcionamento",
-      details: ["Segunda - Sexta: 8h00 - 18h00", "Sábado: 8h00 - 14h00"]
-    }
+      details: [
+        { text: "Segunda - Sexta: 8h00 - 18h00" },
+        { text: "Sábado: 8h00 - 14h00" },
+      ],
+    },
+    {
+      icon: MapPin,
+      title: "Endereço",
+      details: [
+        { text: "Kinaxixi, Edifício ESCOM, 4.º andar" },
+        { text: "Luanda, Angola" },
+      ],
+    },
   ];
 
   const containerVariants = {
@@ -97,11 +122,23 @@ const ContactSection: React.FC = () => {
                     {info.title}
                   </h4>
                   <div className="space-y-1">
-                    {info.details.map((detail, idx) => (
-                      <p key={idx} className="text-gray-600">
-                        {detail}
-                      </p>
-                    ))}
+                    {info.details.map((detail, idx) =>
+                      detail.href ? (
+                        <a
+                          key={idx}
+                          href={detail.href}
+                          target={detail.href.startsWith('http') ? '_blank' : undefined}
+                          rel={detail.href.startsWith('http') ? 'noopener noreferrer' : undefined}
+                          className="block text-gray-600 hover:text-cyan-600 transition-colors"
+                        >
+                          {detail.text}
+                        </a>
+                      ) : (
+                        <p key={idx} className="text-gray-600">
+                          {detail.text}
+                        </p>
+                      )
+                    )}
                   </div>
                 </div>
               </div>

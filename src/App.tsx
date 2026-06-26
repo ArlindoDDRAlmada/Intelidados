@@ -8,6 +8,7 @@ import WhyChooseSection from './components/WhyChooseSection';
 import ProcessSection from './components/ProcessSection';
 import ContactSection from './components/ContactSection';
 import Footer from './components/Footer';
+import WhatsAppButton from './components/WhatsAppButton';
 
 function App() {
   return (
@@ -28,6 +29,7 @@ function App() {
         </main>
         
         <Footer />
+        <WhatsAppButton />
       </div>
     </ErrorBoundary>
   );

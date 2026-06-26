@@ -38,14 +38,14 @@ const Header: React.FC = () => {
       <div className="bg-gradient-to-r from-blue-600 to-cyan-500 text-white py-2 px-4 text-sm">
         <div className="max-w-7xl mx-auto flex flex-col sm:flex-row justify-between items-center">
           <div className="flex items-center space-x-6">
-            <div className="flex items-center">
+            <a href="tel:+244931281875" className="flex items-center hover:text-white transition-colors">
               <Phone className="w-4 h-4 mr-2" />
               <span>931281875 / 931281619</span>
-            </div>
-            <div className="flex items-center">
+            </a>
+            <a href="mailto:geral@intelidadosconsulting.com" className="flex items-center hover:text-white transition-colors">
               <Mail className="w-4 h-4 mr-2" />
               <span>geral@intelidadosconsulting.com</span>
-            </div>
+            </a>
           </div>
           <div className="hidden sm:block text-blue-100">
             NIF: 5002473151 | Luanda, Kinaxixi, Edifício ESCOM, 4.º andar

@@ -200,8 +200,8 @@ const AboutSection: React.FC = () => {
             <div>
               <div className="text-2xl font-bold mb-2">Contactos</div>
               <div className="text-blue-100">
-                931281875 / 931281619<br />
-                geral@intelidadosconsulting.com
+                <a href="tel:+244931281875" className="hover:text-white transition-colors">931281875 / 931281619</a><br />
+                <a href="mailto:geral@intelidadosconsulting.com" className="hover:text-white transition-colors">geral@intelidadosconsulting.com</a>
               </div>
             </div>
           </div>
