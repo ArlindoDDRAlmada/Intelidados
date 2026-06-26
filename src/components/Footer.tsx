@@ -12,6 +12,7 @@ import {
   Heart,
   ExternalLink
 } from 'lucide-react';
+import LegalModal from './LegalModal';
 
 const Footer: React.FC = () => {
   const scrollToTop = () => {
@@ -200,12 +201,14 @@ const Footer: React.FC = () => {
               </div>
 
               <div className="flex items-center space-x-6">
-                <button className="text-gray-400 hover:text-white text-sm transition-colors duration-200">
-                  Política de Privacidade
-                </button>
-                <button className="text-gray-400 hover:text-white text-sm transition-colors duration-200">
-                  Termos de Uso
-                </button>
+                <LegalModal
+                  title="Política de Privacidade"
+                  intro="A InteliDados Consultoria valoriza a sua privacidade. A nossa Política de Privacidade detalhada está a ser preparada. Para qualquer questão sobre o tratamento dos seus dados pessoais, contacte-nos:"
+                />
+                <LegalModal
+                  title="Termos de Uso"
+                  intro="Os Termos de Uso detalhados deste site estão a ser preparados. Para mais informações sobre a utilização dos nossos serviços, contacte a InteliDados Consultoria:"
+                />
                 
                 {/* Back to Top */}
                 <motion.button
