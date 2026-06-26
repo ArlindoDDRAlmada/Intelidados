@@ -52,7 +52,7 @@ const HeroSection: React.FC = () => {
               transition={{ delay: 0.6, duration: 0.6 }}
               className="text-xl md:text-2xl text-blue-100 leading-relaxed max-w-2xl"
             >
-              Descomplique os seus dados com a <span className="font-semibold text-cyan-300">INTELIDADOS</span>. 
+              Descomplique os seus dados com a <span className="font-semibold text-cyan-300">InteliDados</span>. 
               Transformamos informação em decisões estratégicas para empresas angolanas.
             </motion.p>
 

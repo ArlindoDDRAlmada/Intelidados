@@ -84,7 +84,7 @@ const WhyChooseSection: React.FC = () => {
           className="text-center mb-16"
         >
           <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
-            Porquê escolher a <span className="text-cyan-500">INTELIDADOS</span>?
+            Porquê escolher a <span className="text-cyan-500">InteliDados</span>?
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
             Combinamos expertise técnica com conhecimento local para entregar
