@@ -87,13 +87,11 @@ const HeroSection: React.FC = () => {
             transition={{ duration: 0.8, delay: 0.2 }}
             className="relative"
           >
-            <div className="relative z-10 flex items-center justify-center py-8">
-              {/* Brand fingerprint glow */}
-              <div className="absolute w-72 h-72 md:w-96 md:h-96 bg-cyan-400/20 blur-3xl rounded-full" />
+            <div className="relative z-10">
               <img
-                src={`${import.meta.env.BASE_URL}symbol.svg`}
-                alt="InteliDados — impressão digital de dados"
-                className="relative w-56 md:w-72 h-auto drop-shadow-2xl"
+                src={`${import.meta.env.BASE_URL}intelidadosPresentation.png`}
+                alt="Transformação de Dados - InteliDados Consultoria"
+                className="w-full h-auto rounded-2xl shadow-2xl"
               />
             </div>
             
