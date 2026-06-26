@@ -30,3 +30,7 @@ pnpm-debug.log*
 .env
 .env.local
 .env.*.local
+
+# Brand source pack — commercial fonts (Aktiv Grotesk), PDF manual and .ai
+# files. Keep locally for reference, but never publish/deploy them.
+public/imagemInteliDados/

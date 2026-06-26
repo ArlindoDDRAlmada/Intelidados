@@ -76,7 +76,7 @@ const Footer: React.FC = () => {
               className="lg:col-span-1 space-y-6"
             >
               <img
-                src={`${import.meta.env.BASE_URL}logoIntelidados.jpg`}
+                src={`${import.meta.env.BASE_URL}logo-white.svg`}
                 alt="InteliDados Consultoria"
                 className="h-16 w-auto"
               />
