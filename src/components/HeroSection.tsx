@@ -3,6 +3,10 @@ import { motion } from 'framer-motion';
 import { ChevronRight, BarChart3, Brain, Database } from 'lucide-react';
 
 const HeroSection: React.FC = () => {
+  const scrollToSection = (href: string) => {
+    document.querySelector(href)?.scrollIntoView({ behavior: 'smooth' });
+  };
+
   return (
     <section className="relative min-h-screen bg-gradient-to-br from-blue-900 via-blue-800 to-cyan-600 overflow-hidden">
       {/* Background Pattern */}
@@ -58,12 +62,18 @@ const HeroSection: React.FC = () => {
               transition={{ delay: 0.8, duration: 0.6 }}
               className="flex flex-col sm:flex-row gap-4"
             >
-              <button className="group bg-cyan-500 hover:bg-cyan-400 text-white px-8 py-4 rounded-xl font-semibold text-lg transition-all duration-300 shadow-lg hover:shadow-cyan-500/25 flex items-center justify-center">
+              <button
+                onClick={() => scrollToSection('#contato')}
+                className="group bg-cyan-500 hover:bg-cyan-400 text-white px-8 py-4 rounded-xl font-semibold text-lg transition-all duration-300 shadow-lg hover:shadow-cyan-500/25 flex items-center justify-center"
+              >
                 Comece Sua Transformação
                 <ChevronRight className="w-5 h-5 ml-2 group-hover:translate-x-1 transition-transform" />
               </button>
-              
-              <button className="group border-2 border-white/30 hover:border-white text-white px-8 py-4 rounded-xl font-semibold text-lg transition-all duration-300 backdrop-blur-sm hover:bg-white/10 flex items-center justify-center">
+
+              <button
+                onClick={() => scrollToSection('#servicos')}
+                className="group border-2 border-white/30 hover:border-white text-white px-8 py-4 rounded-xl font-semibold text-lg transition-all duration-300 backdrop-blur-sm hover:bg-white/10 flex items-center justify-center"
+              >
                 <BarChart3 className="w-5 h-5 mr-2" />
                 Ver Nossos Serviços
               </button>

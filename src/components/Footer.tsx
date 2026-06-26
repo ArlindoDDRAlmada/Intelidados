@@ -162,7 +162,7 @@ const Footer: React.FC = () => {
               </ul>
             </motion.div>
 
-            {/* Newsletter */}
+            {/* Direct Contact */}
             <motion.div
               initial={{ opacity: 0, y: 30 }}
               whileInView={{ opacity: 1, y: 0 }}
@@ -170,22 +170,7 @@ const Footer: React.FC = () => {
               transition={{ duration: 0.6, delay: 0.3 }}
               className="space-y-6"
             >
-              <h3 className="text-xl font-bold text-white">Newsletter</h3>
-              <p className="text-gray-300 text-sm">
-                Receba insights sobre dados, IA e transformação digital 
-                diretamente no seu email.
-              </p>
-              
-              <div className="space-y-3">
-                <input
-                  type="email"
-                  placeholder="Seu email"
-                  className="w-full px-4 py-3 bg-gray-700 border border-gray-600 rounded-lg focus:ring-2 focus:ring-cyan-500 focus:border-transparent text-white placeholder-gray-400"
-                />
-                <button className="w-full bg-gradient-to-r from-cyan-500 to-blue-600 hover:from-cyan-600 hover:to-blue-700 text-white px-4 py-3 rounded-lg font-semibold transition-all duration-300">
-                  Subscrever
-                </button>
-              </div>
+              <h3 className="text-xl font-bold text-white">Contacto</h3>
 
               <div className="bg-gray-800 p-4 rounded-lg">
                 <h4 className="font-semibold text-white mb-2">Contacto Directo</h4>
