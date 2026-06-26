@@ -85,6 +85,13 @@ const ServicesSection: React.FC = () => {
     }
   };
 
+  const scrollToContact = () => {
+    document.querySelector('#contato')?.scrollIntoView({ behavior: 'smooth' });
+  };
+
+  const whatsAppUrl = (message: string) =>
+    `https://wa.me/244931281875?text=${encodeURIComponent(message)}`;
+
   return (
     <section id="servicos" className="py-20 bg-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -154,10 +161,15 @@ const ServicesSection: React.FC = () => {
                 </ul>
 
                 {/* Learn More Button */}
-                <button className="group/btn flex items-center text-cyan-600 hover:text-cyan-700 font-semibold transition-colors duration-300">
+                <a
+                  href={whatsAppUrl(`Olá! Gostaria de saber mais sobre o serviço: ${service.title}.`)}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="group/btn inline-flex items-center text-cyan-600 hover:text-cyan-700 font-semibold transition-colors duration-300"
+                >
                   Saiba Mais
                   <ArrowRight className="w-4 h-4 ml-2 group-hover/btn:translate-x-1 transition-transform duration-300" />
-                </button>
+                </a>
               </div>
             </motion.div>
           ))}
@@ -180,13 +192,21 @@ const ServicesSection: React.FC = () => {
               a aproveitar todo o potencial dos seus dados.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <button className="bg-white text-blue-600 px-8 py-4 rounded-xl font-semibold hover:bg-blue-50 transition-colors duration-300 flex items-center justify-center">
+              <button
+                onClick={scrollToContact}
+                className="bg-white text-blue-600 px-8 py-4 rounded-xl font-semibold hover:bg-blue-50 transition-colors duration-300 flex items-center justify-center"
+              >
                 Consulta Gratuita
                 <ArrowRight className="w-5 h-5 ml-2" />
               </button>
-              <button className="border-2 border-white text-white px-8 py-4 rounded-xl font-semibold hover:bg-white/10 transition-colors duration-300">
-                Ver Portfolio
-              </button>
+              <a
+                href={whatsAppUrl('Olá! Gostaria de saber mais sobre os vossos serviços.')}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="border-2 border-white text-white px-8 py-4 rounded-xl font-semibold hover:bg-white/10 transition-colors duration-300 flex items-center justify-center"
+              >
+                Falar no WhatsApp
+              </a>
             </div>
           </div>
         </motion.div>
