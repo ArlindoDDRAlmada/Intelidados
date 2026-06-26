@@ -1,7 +1,7 @@
 import React from 'react';
 import { FaWhatsapp } from 'react-icons/fa';
 
-const WHATSAPP_NUMBER = '244948615915';
+const WHATSAPP_NUMBER = '244931281875';
 const WHATSAPP_MESSAGE = encodeURIComponent(
   'Olá! Gostaria de saber mais sobre os serviços da InteliDados.'
 );

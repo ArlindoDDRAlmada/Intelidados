@@ -28,7 +28,7 @@ const ContactSection: React.FC = () => {
       icon: FaWhatsapp,
       title: "WhatsApp",
       details: [
-        { text: "+244 948 615 915", href: "https://wa.me/244948615915" },
+        { text: "+244 931 281 875", href: "https://wa.me/244931281875" },
       ],
     },
     {
