@@ -89,7 +89,7 @@ const Footer: React.FC = () => {
               <div className="space-y-3">
                 <div className="flex items-center text-gray-300">
                   <MapPin className="w-5 h-5 mr-3 text-cyan-400 flex-shrink-0" />
-                  <span className="text-sm">Mártires, rua 8, escritório n° 21B<br />Luanda, Angola</span>
+                  <span className="text-sm">Kinaxixi, Edifício ESCOM, 4.º andar<br />Luanda, Angola</span>
                 </div>
                 
                 <div className="flex items-center text-gray-300">
@@ -99,7 +99,7 @@ const Footer: React.FC = () => {
                 
                 <div className="flex items-center text-gray-300">
                   <Mail className="w-5 h-5 mr-3 text-cyan-400 flex-shrink-0" />
-                  <span className="text-sm">intelidadosconsultoria@outlook.com</span>
+                  <span className="text-sm">geral@intelidadosconsulting.com</span>
                 </div>
               </div>
 

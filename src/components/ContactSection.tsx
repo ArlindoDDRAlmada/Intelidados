@@ -17,12 +17,12 @@ const ContactSection: React.FC = () => {
     {
       icon: Mail,
       title: "Email",
-      details: ["intelidadosconsultoria@outlook.com"]
+      details: ["geral@intelidadosconsulting.com"]
     },
     {
       icon: MapPin,
       title: "Endereço",
-      details: ["Mártires, rua 8", "Escritório n° 21B", "Luanda, Angola"]
+      details: ["Kinaxixi, Edifício ESCOM, 4.º andar", "Luanda, Angola"]
     },
     {
       icon: Clock,
@@ -141,7 +141,7 @@ const ContactSection: React.FC = () => {
           <div className="bg-gray-100 h-64 rounded-2xl flex items-center justify-center">
             <div className="text-center text-gray-500">
               <MapPin className="w-12 h-12 mx-auto mb-4" />
-              <p className="text-lg font-semibold">Mártires, rua 8, escritório n° 21B</p>
+              <p className="text-lg font-semibold">Kinaxixi, Edifício ESCOM, 4.º andar</p>
               <p className="text-sm">Luanda, Angola</p>
             </div>
           </div>

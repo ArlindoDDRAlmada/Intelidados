@@ -15,7 +15,7 @@ interface LegalModalProps {
   intro: string;
 }
 
-const EMAIL = 'intelidadosconsultoria@outlook.com';
+const EMAIL = 'geral@intelidadosconsulting.com';
 
 // Placeholder modal for legal pages (Privacy Policy / Terms of Use).
 // Shows an honest "being prepared" message plus clickable contact details

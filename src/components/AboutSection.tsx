@@ -195,13 +195,13 @@ const AboutSection: React.FC = () => {
             </div>
             <div>
               <div className="text-2xl font-bold mb-2">Localização</div>
-              <div className="text-blue-100">Mártires, rua 8, escritório n° 21B</div>
+              <div className="text-blue-100">Luanda, Kinaxixi, Edifício ESCOM, 4.º andar</div>
             </div>
             <div>
               <div className="text-2xl font-bold mb-2">Contactos</div>
               <div className="text-blue-100">
                 931281875 / 931281619<br />
-                intelidadosconsultoria@outlook.com
+                geral@intelidadosconsulting.com
               </div>
             </div>
           </div>

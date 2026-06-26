@@ -44,11 +44,11 @@ const Header: React.FC = () => {
             </div>
             <div className="flex items-center">
               <Mail className="w-4 h-4 mr-2" />
-              <span>intelidadosconsultoria@outlook.com</span>
+              <span>geral@intelidadosconsulting.com</span>
             </div>
           </div>
           <div className="hidden sm:block text-blue-100">
-            NIF: 5002473151 | Mártires, rua 8, escritório n° 21B
+            NIF: 5002473151 | Luanda, Kinaxixi, Edifício ESCOM, 4.º andar
           </div>
         </div>
       </div>
