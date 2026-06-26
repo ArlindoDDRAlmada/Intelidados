@@ -68,27 +68,6 @@ const HeroSection: React.FC = () => {
                 Ver Nossos Serviços
               </button>
             </motion.div>
-
-            {/* Stats */}
-            <motion.div
-              initial={{ opacity: 0, y: 20 }}
-              animate={{ opacity: 1, y: 0 }}
-              transition={{ delay: 1, duration: 0.6 }}
-              className="grid grid-cols-3 gap-8 pt-8 border-t border-white/20"
-            >
-              <div className="text-center">
-                <div className="text-3xl font-bold text-cyan-400">100+</div>
-                <div className="text-blue-200 text-sm">Projetos Concluídos</div>
-              </div>
-              <div className="text-center">
-                <div className="text-3xl font-bold text-cyan-400">50+</div>
-                <div className="text-blue-200 text-sm">Empresas Atendidas</div>
-              </div>
-              <div className="text-center">
-                <div className="text-3xl font-bold text-cyan-400">5+</div>
-                <div className="text-blue-200 text-sm">Anos de Experiência</div>
-              </div>
-            </motion.div>
           </motion.div>
 
           {/* Hero Image */}
