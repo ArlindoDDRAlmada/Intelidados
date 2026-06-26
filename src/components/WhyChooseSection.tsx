@@ -20,7 +20,7 @@ const WhyChooseSection: React.FC = () => {
     },
     {
       icon: Users,
-      title: "Equipe Especializada",
+      title: "Equipa Especializada",
       description: "Profissionais qualificados com experiência internacional em ciência de dados e IA.",
       highlight: "Experts Certificados"
     },
@@ -84,7 +84,7 @@ const WhyChooseSection: React.FC = () => {
           className="text-center mb-16"
         >
           <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
-            Por que Escolher a <span className="text-cyan-500">InteliDados</span>?
+            Porquê escolher a <span className="text-cyan-500">INTELIDADOS</span>?
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
             Combinamos expertise técnica com conhecimento local para entregar
@@ -137,7 +137,7 @@ const WhyChooseSection: React.FC = () => {
                 {/* Check Icon */}
                 <div className="mt-6 flex items-center text-cyan-600">
                   <CheckCircle className="w-5 h-5 mr-2" />
-                  <span className="text-sm font-semibold">Garantido</span>
+                  <span className="text-sm font-semibold">Compromisso</span>
                 </div>
               </div>
             </motion.div>

@@ -50,7 +50,7 @@ const ProcessSection: React.FC = () => {
         "Desenvolvimento iterativo com sprints",
         "Testes contínuos e validação",
         "Integração com sistemas existentes",
-        "Treinamento da equipe interna"
+        "Formação da equipa interna"
       ],
       duration: "4-12 semanas",
       deliverable: "Solução Completa Implementada"
@@ -242,10 +242,10 @@ const ProcessSection: React.FC = () => {
 
             <div className="relative z-10">
               <h3 className="text-2xl md:text-3xl font-bold mb-4">
-                Pronto para Começar Sua Transformação?
+                Pronto para Iniciar a sua Transformação Digital?
               </h3>
               <p className="text-lg text-gray-300 mb-8 max-w-2xl mx-auto">
-                Nossa equipe está preparada para dar início ao seu projeto. 
+                A nossa equipa está preparada para dar início ao seu projeto. 
                 Agende uma consulta gratuita e descubra como podemos ajudar.
               </p>
               

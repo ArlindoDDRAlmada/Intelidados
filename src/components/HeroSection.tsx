@@ -52,7 +52,7 @@ const HeroSection: React.FC = () => {
               transition={{ delay: 0.6, duration: 0.6 }}
               className="text-xl md:text-2xl text-blue-100 leading-relaxed max-w-2xl"
             >
-              Descomplique seus dados com a <span className="font-semibold text-cyan-300">InteliDados</span>. 
+              Descomplique os seus dados com a <span className="font-semibold text-cyan-300">INTELIDADOS</span>. 
               Transformamos informação em decisões estratégicas para empresas angolanas.
             </motion.p>
 
@@ -66,7 +66,7 @@ const HeroSection: React.FC = () => {
                 onClick={() => scrollToSection('#contato')}
                 className="group bg-cyan-500 hover:bg-cyan-400 text-white px-8 py-4 rounded-xl font-semibold text-lg transition-all duration-300 shadow-lg hover:shadow-cyan-500/25 flex items-center justify-center"
               >
-                Comece Sua Transformação
+                Inicie a sua transformação digital
                 <ChevronRight className="w-5 h-5 ml-2 group-hover:translate-x-1 transition-transform" />
               </button>
 

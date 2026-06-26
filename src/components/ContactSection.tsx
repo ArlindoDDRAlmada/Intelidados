@@ -68,8 +68,8 @@ const ContactSection: React.FC = () => {
             Entre em <span className="text-cyan-500">Contacto</span>
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            Pronto para transformar seus dados em decisões estratégicas?
-            Nossa equipe está aqui para ajudar a sua empresa a crescer.
+            Pronto para transformar os seus dados em decisões estratégicas?
+            A nossa equipa está aqui para ajudar a sua empresa a crescer.
           </p>
         </motion.div>
 
@@ -125,7 +125,7 @@ const ContactSection: React.FC = () => {
           </div>
           <div className="mt-6 pt-6 border-t border-blue-400">
             <p className="text-sm text-blue-100">
-              "Da informação à ação: descomplique seus dados conosco"
+              "Da informação à ação: descomplique os seus dados connosco"
             </p>
           </div>
         </motion.div>

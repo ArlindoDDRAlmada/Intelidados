@@ -177,7 +177,7 @@ const Footer: React.FC = () => {
                 <h4 className="font-semibold text-white mb-2">Contacto Directo</h4>
                 <p className="text-cyan-400 font-semibold">NIF: 5002473151</p>
                 <p className="text-gray-300 text-sm mt-2">
-                  "Da informação à ação: descomplique seus dados connosco"
+                  "Da informação à ação: descomplique os seus dados connosco"
                 </p>
               </div>
             </motion.div>

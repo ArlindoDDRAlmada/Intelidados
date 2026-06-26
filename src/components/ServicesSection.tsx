@@ -52,9 +52,9 @@ const ServicesSection: React.FC = () => {
     },
     {
       icon: GraduationCap,
-      title: "Cursos e Treinamentos",
+      title: "Formação e Capacitação Corporativa",
       description: "Programas de capacitação em tecnologia, dados e transformação digital.",
-      features: ["Workshops", "Cursos Online", "Treinamento Corporativo"]
+      features: ["Workshops", "Cursos Online", "Formação Corporativa"]
     },
     {
       icon: ShoppingCart,
@@ -173,7 +173,7 @@ const ServicesSection: React.FC = () => {
         >
           <div className="bg-gradient-to-r from-blue-600 to-cyan-500 rounded-2xl p-8 md:p-12 text-white">
             <h3 className="text-2xl md:text-3xl font-bold mb-4">
-              Pronto para Transformar Seus Dados?
+              Pronto para Transformar os Seus Dados?
             </h3>
             <p className="text-lg text-blue-100 mb-8 max-w-2xl mx-auto">
               Entre em contacto connosco e descubra como podemos ajudar a sua empresa 
